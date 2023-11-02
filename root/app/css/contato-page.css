@@ -1,0 +1,70 @@
+.formulario h1{
+   font-size: 25px; 
+   font-family:cursive;
+   margin-left: 60px;
+}
+
+.formulario textarea{
+    width: 540px;
+    margin-left: 60px;
+}
+
+.formulario label{
+    margin-left: 60px;
+    font-family: fantasy;
+}
+
+.formulario button{
+    margin-left: 60px;
+    background-color: darkcyan;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    border-color: white;
+    margin-top: 5px;
+}
+
+.formulario button:hover{
+    background-color: rgb(75, 218, 118);
+    font-size: 20px;
+}
+
+.formulario input{
+    width: 490px;
+    height: 30px;
+}
+
+.estiloCustomizado{
+   background-color: rgba(243, 94, 111, 0.5);
+}
+
+.estiloCustomizado-formulario{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.alerta-personalizado {
+    background-color: #ff0000;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .alerta-personalizado-sucesso{
+    background-color: #4af669;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }

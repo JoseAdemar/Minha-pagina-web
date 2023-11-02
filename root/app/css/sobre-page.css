@@ -1,0 +1,30 @@
+.pagina-sobre p{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    line-height: 30px
+}
+.pagina-sobre h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Courier, monospace;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.pagina-sobre h5{
+    text-align: center;
+    font-size: 20px;
+}
+
+.pagina-sobre article{
+    background-color: rgb(230, 237, 239);
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-bottom: 30px;
+}
+
+.titulo-sobre{
+    padding-top: 30px;
+}
