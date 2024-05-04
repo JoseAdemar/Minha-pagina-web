@@ -1,0 +1,75 @@
+.pagina-portfolio h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.pagina-portfolio h5 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.pagina-portfolio article {
+  background-color: #f0f8ff;
+  margin-left: 270px;
+  margin-right: 270px;
+  padding-bottom: 30px;
+}
+
+.titulo-portfolio {
+  padding-top: 30px;
+}
+
+.pagina-portfolio h4 {
+  font-family: "Oswald", sans-serif;
+  opacity: 0.8;
+  margin: 25px;
+}
+
+.pagina-portfolio li {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+/*Media query*/
+
+@media screen and (max-width: 430px) {
+  .pagina-portfolio p {
+    text-align: justify;
+    margin-left: -260px;
+    margin-right: -100px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    opacity: 0.8;
+    line-height: 30px;
+  }
+
+  .titulo-portfolio {
+    margin-left: -195px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .pagina-portfolio h4,
+  p {
+    font-family: "Oswald", sans-serif;
+    opacity: 0.8;
+    margin: 3px;
+  }
+
+  .pagina-portfolio li,
+  p {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-left: -34px;
+    margin-right: 50px;
+    list-style-type: none;
+  }
+}
