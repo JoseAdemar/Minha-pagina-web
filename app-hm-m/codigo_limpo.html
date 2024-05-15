@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/template.css" />
+  <link rel="stylesheet" href="css/home-page.css" />
+  <link rel="stylesheet" href="css/about-page.css" />
+  <link rel="stylesheet" href="css/contact-page.css" />
+  <link rel="stylesheet" href="css/education-page.css" />
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/article.css" />
+  <link rel="stylesheet" href="css/template.css" />
+
+  <script type="text/javascript" src="js/arquivo.js"></script>
+  <title>Artigo</title>
+</head>
+
+<body>
+  <div class="cabecalho-home">
+    <header>
+      <h4>PROFISSIONAL DE TI</h4>
+      <a class="exibir-menu-sandwiche" href=""><img class="menu-sandwiche" src="img/bars-solid.svg" alt="" /></a>
+      <a class="exibir-fechar-menu" href=""><img class="menu-fechar" src="img/xmark-solid.svg" alt="" /></a>
+      <section class="social-medias">
+        <ul>
+          <!--
+            <li>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCqqj4meGeON1iwm_t7Yd9JA"
+                ><img
+                  src="img/youtube.svg"
+                  alt="canal no youtube"
+                  title="youtube"
+              /></a>
+            </li>
+            -->
+          <li>
+            <a target="_blank" href="https://github.com/joseademar"><img class="github" src="img/square-github.svg"
+                alt="página github" title="github" /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/jose-ademar/">
+              <img class="linkedin" src="img/linkedin.svg" alt="perfil do linkedin" title="linkedin" /></a>
+          </li>
+          <li>
+            <div class="gtranslate_wrapper"></div>
+            <script>
+              window.gtranslateSettings = {
+                default_language: "pt",
+                native_language_names: true,
+                languages: ["pt", "en"],
+                wrapper_selector: ".gtranslate_wrapper",
+                flag_size: 48,
+                horizontal_position: "right",
+                vertical_position: "top",
+                alt_flags: { en: "usa", pt: "brazil" },
+              };
+            </script>
+            <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+          </li>
+        </ul>
+      </section>
+      <nav class="menus">
+        <ul class="exibir-itens-menu">
+          <li class="menu-navegacao corhome">
+            <a href="index.html">Início</a>
+          </li>
+          <li class="menu-navegacao corsobre">
+            <a href="about.html">Sobre</a>
+          </li>
+          <li class="menu-navegacao coreducacao">
+            <a href="education.html">Educação</a>
+          </li>
+          <li class="menu-navegacao corportifolio">
+            <a href="portfolio.html">Portifólio</a>
+          </li>
+          <li class="menu-navegacao corarticle">
+            <a href="article.html">Artigos</a>
+          </li>
+          <li class="menu-navegacao corcontato">
+            <a href="contact.html">Contato</a>
+          </li>
+          <li class="menu-navegacao corcontato">
+            <a hidden="true" href="codigo_limpo.html">codigo_limpo</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="img-profile">
+        <img src="img/profile.jpeg" alt="" />
+        <span>
+          <h4 class="meu-nome">José Ademar</h4>
+        </span>
+        <ul class="skills">
+          <li style="list-style-type: none; font-style: italic; font-size: 16px;">
+            Desenvolvedor Java
+          </li>
+          <!--<li>Especialista Spring-Boot</li>-->
+          <li style="list-style-type: circle">
+            <h5>Conhecimentos em:</h5>
+          </li>
+          <li>Java Core</li>
+          <li>Spring-Boot</li>
+          <li>JavaScript</li>
+          <li>Angular</li>
+          <li>HTML/CSS</li>
+          <li>GIT</li>
+          <li>Docker</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <section>
+    <div class="pagina-artigo">
+      <article>
+        <h3 class="titulo-artigo">Código de fácil leitura e compreensão 📚</h3>
+        <p>
+          Um código de fácil leitura, facilita muito as nossas vidas e também a vida de outros programadores, sem contar
+          com a compreensão, que nos faz entender o código de uma maneira muito simples e rápida.
+        </p>
+        <p>
+          Você já se deparou com algum código no qual você acaba gastando um pouco de tempo para entendê-lô?
+          Muita das vezes isso acontece, não devido a complexidade do código, más da forma no qual ele foi escrito.
+        </p>
+        <p>
+          Uma escrita legível, nos ajuda a ler um código de uma forma simples, como se tivessemos lendo uma redação.
+          A compreensão se torna fácil e trabalhar em códigos que segue essa abordagem nos salva algumas horas de
+          trabalho.
+        </p>
+        <p>
+          Então como escrever códigos de fácil leitura e compreensão ?
+          Vou abordar alguns exemplos que podem nos ajudar a escrever códigos mais legíveis.
+        </p>
+        <div class="observacoes-titulos-dos-artigos">
+          <p>
+          <h3>Observe esse simples método em Java e faça a leitura dele.</h3>
+          </p>
+        </div>
+        <p>
+        <pre class="codigo-formatado">
+              public void getValor(int d) {
+                switch (d) {
+                    case 1 -> System.out.println("Segudna-feira");
+                    case 2 -> System.out.println("Terça-feira");
+                    case 3 -> System.out.println("Quarta-feira");
+                    case 4 -> System.out.println("Quinta-feira");
+                    case 5 -> System.out.println("Sexta-feira");
+                    case 6 -> System.out.println("Sábado");
+                    case 7 -> System.out.println("Domingo");
+                    default -> System.out.println("Dia inválido");
+                }
+            }
+            </pre>
+        </p>
+        <div class="observacoes-titulos-dos-artigos">
+          <p>
+          <h3>Agora observe esse outro método e faz a leitura dele.</h3>
+          </p>
+        </div>
+
+
+        <p>
+        <pre class="codigo-formatado-grande">
+            public static void imprimirDiaDaSemana(int diaDaSemana) {
+              switch (diaDaSemana) {
+                  case SEGUNDA_FEIRA -> System.out.println("Segudna-feira");
+                  case TERCA_FEIRA -> System.out.println("Terça-feira");
+                  case QUARTA_FEIRA -> System.out.println("Quarta-feira");
+                  case QUINTA_FEIRA -> System.out.println("Quinta-feira");
+                  case SEXTA_FEIRA -> System.out.println("Sexta-feira");
+                  case SABADO -> System.out.println("Sábado");
+                  case DOMINGO -> System.out.println("Domingo");
+                  default -> System.out.println("Dia inválido");
+              }
+          }
+          </pre>
+        </p>
+
+        <p>
+
+          Dá para observar que os dois códigos fazem a mesma coisa, porém a leitura do último código é bem mais simples
+          e de fácil
+          compreensão, você não precisa adivinhar o que o código faz. Esse foi um exemplo bem simples, porém podemos ver
+          que dar nomes
+          que façam sentindos para as nossas variáveis da outra vida ao nosso código.</p>
+          <p> Sendo assim, mesmo que demore mais
+          um pouquinho
+          tente dar bons nomes para suas variáveis, classes e métodos, nesse exemplo, eliminamos os famosos números
+          curingas, ou seja
+          números que temos de adivinhar o que representa, nesse cenário podemos criar constantes com nomes que
+          representam o objetivo
+          da variável.
+
+        </p>
+
+        <p>
+          Outro fator muito importante é não criar variáveis com abreviações, isso também deixa o código menos legível
+          conforme o exemplo
+          ilustrado onde tem uma variável int d, ao ler uma variável desse tipo, não temos de início o que ela realmente
+          quer representar.
+          Seguindo com mais exemplos, também temos esse cenário abaixo no qual podemos melhor códigos escritos dessa
+          forma.
+        </p>
+
+        <div class="observacoes-titulos-dos-artigos">
+          <p>
+          <h3>Observe esse código:</h3>
+          </p>
+
+        </div>
+
+        <p>
+        <pre class="codigo-formatado-medio">
+            public void getFinalDeSemana(int d) {
+              if (d == 6 || d == 7) {
+                  System.out.println("É final de semana");
+              } else {
+                  System.out.println("Não é final de semana");
+              }
+          }
+          </pre>
+        </p>
+
+        <p>Podemos ver que temos variáveis com nomes curingas, ou seja, temos que adivinhar do que se trata, também
+          temos os números no if
+          que nos faz pensar, o que quer dizer 6 ou 7 ? Nesse momento, temos que pensar em refatorar o nosso código.
+          Observe o mesmo código, más
+          escrito de uma forma mais legível.</p>
+
+        <p>
+        <pre class="codigo-formatado">
+              public void verificarSeDiaEfinalDeSemana() {
+                if (isFinalDeSemana()) {
+                    System.out.println("É final de semana");
+                } else {
+                    System.out.println("Não é final de semana");
+                }
+            }
+            </pre>
+        </p>
+
+        <p>Observe que o código tem mais leveza e é de fácil compreensão, nesse exemplo podemos extrair a validação do
+          if com números curingas para um método privado
+          booleano com um nome que faça sentido, fazendo a leitura uma coisa muito simples.</p>
+          <p> Em resumo, sempre tente dar
+          bons nomes para as variáveis, classes e métodos,
+          tente deixar os seus métodos e classes menores sempre que possível, adote o hábito de escrever códigos limpos
+          e de fácil compreensão, isso ajuda a você mesmo
+          e também as próximas pessoas que forem trabalhar no código.</p>
+        <p>Espero que vocês tenham gostado desse pequeno artigo e que te ajude a escrever códigos mais limpos, isso é
+          algo que devemos colocar em prática no nosso
+          dia a dia como desenvolvedor para escrever códigos elegantes, de qualidade e com alta performance.</p>
+
+
+        <div class="autores">
+          <p>
+          <h5>Autor: José Ademar</h5>
+          <h5>Referências: Livro Código Limpo da série de Robert C. Martin</h5>
+          </p>
+        </div>
+
+      </article>
+    </div>
+  </section>
+</body>
+<div class="roda-pe">
+  <footer>
+    <section>
+      <ul>
+        <li>
+          <h3>EMAIL:</h3>
+          <p>joseademarti@gmail.com</p>
+        </li>
+
+        <li>
+          <h3>CIDADE:</h3>
+          <p>Brasília-DF</p>
+        </li>
+        <li>
+          <h3>PAÍS:</h3>
+          <p>Brasil</p>
+        </li>
+      </ul>
+      <hr class="hr-inferior" style="height: 1" />
+
+      <p class="direitos-autorais" style="text-align: center">&#169; 2023</p>
+    </section>
+  </footer>
+</div>
+
+</html>

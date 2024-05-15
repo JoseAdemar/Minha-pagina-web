@@ -163,6 +163,11 @@ body {
   cursor: pointer;
 }
 
+.menus ul .corarticle:hover {
+  color: #dcdcdc;
+  cursor: pointer;
+}
+
 /* Fim do css que trata dos ícones de rede sociais.*/
 
 /*Início do css referente a o rodapé*/

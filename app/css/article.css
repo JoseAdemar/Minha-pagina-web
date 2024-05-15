@@ -25,11 +25,33 @@
   background-color: #f0f8ff;
   margin-left: 270px;
   margin-right: 270px;
-  padding-bottom: 30px;
+  padding-bottom: 180px;
 }
 
 .titulo-artigo {
   padding-top: 30px;
+}
+
+.autores {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.observacoes-titulos-dos-artigos h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lista-artigos {
+  margin-left: 0px;
+}
+
+.lista-artigos a {
+  color: black;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
 /*Media query*/
@@ -38,9 +60,10 @@
   .pagina-artigo p {
     text-align: justify;
     margin-left: -260px;
-    margin-right: -100px;
+    margin-right: -110px;
     padding: 10px;
-    font-size: 18px;
+    padding-bottom: 0px;
+    font-size: 20px;
     font-family: "Oswald", sans-serif;
     opacity: 0.8;
     line-height: 30px;
@@ -50,5 +73,48 @@
     margin-left: -195px;
     padding-top: 20px;
     text-align: center;
+  }
+
+  .observacoes-titulos-dos-artigos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -235px;
+  }
+
+  .codigo-formatado {
+    margin-left: -335px;
+    font-size: 12px;
+  }
+  .codigo-formatado-grande {
+    margin-left: -315px;
+    font-size: 10px;
+  }
+
+  .codigo-formatado-medio {
+    margin-left: -315px;
+    font-size: 12px;
+  }
+
+  .autores {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    opacity: 0.5;
+    margin-left: -230px;
+  }
+
+  .lista-artigos {
+    margin-left: -240px;
+  }
+
+  .lista-artigos a {
+    color: black;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .pagina-artigo article {
+    background-color: #f0f8ff;
+    padding-bottom: 30px;
   }
 }
