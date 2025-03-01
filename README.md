@@ -1,12 +1,9 @@
-# Projeto (Minha página Web)
-## Projeto realizado com HTML/CSS e JavaScript
-<p>Esse é um projeto web, onde me desafiei a criar uma página web
-sem a utilização de frameworks, como bootstrap e entre outros bem famosos no mercado.</p>
-<p>Sabemos que a utilização de frameworks facilita bastante o nosso trabalho e ganhamos 
-muito com produtividade, porém eu queria aprimorar meus conhecimentos com HTML, CSS e JavaScript
-para o desenvolvimento de páginas web, forçando eu ter mais domínio e conhecimento das tecnologias 
-utilizadas, para chegar no resultado final do meu site.</p>
+# Project (My Web Page)
 
-<p>Para deixar o site responsivo, utilizei os recursos de media query do css e manipulei os botões de menu 
-com JavaScript puro. Segue o link para visualizar a página Web👇</p>
+## Project built with HTML/CSS and JavaScript
+
+<p>This is a web project where I challenged myself to create a webpage without using frameworks like Bootstrap and other well-known tools in the market.</p>
+<p>We know that using frameworks makes our work much easier and greatly boosts productivity. However, I wanted to enhance my skills with HTML, CSS, and JavaScript for web development, forcing myself to have a deeper understanding and mastery of the technologies used to achieve the final result of my website.</p>
+
+<p>To make the site responsive, I used CSS media query features and manipulated the menu buttons with plain JavaScript. Here's the link to view the webpage 👇</p>
 https://joseademar.netlify.app/
